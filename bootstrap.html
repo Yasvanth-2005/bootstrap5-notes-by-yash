@@ -1,0 +1,1676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+  <body >
+
+    <div class="container-fluid bg-primary p-4 text-white text-center"><!--Container actually gives good margin to your elements according to size-->
+<!--Container fluid will give 100% width and acts as container for all other things-->
+<!--pt will give padding at top - range (1-5)-->
+<!--p will give padding at all sides - range (1-5)-->
+<!--mt will give amrgin at top and m will give margin on both sides- range (1-5)-->
+
+        <h1>Bootstrap heading1 tag</h1><!--H1 created inside a container will be adjusted to diffrent screen sizes with diffrent font-sizes-->
+        <h6>Heading 6</h6>
+    </div>
+
+    <div class="container mt-3">
+
+        <blockquote>blockquote Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis magnam quisquam quis?</blockquote>
+        <div class="blockquote-footer">A lorem text (blockquote footer)</div>
+        <code>A bootstrap code</code><br>
+        <kbd >Ctrl+c(bootsratp kbd)</kbd>
+
+    </div>
+
+    <!--colors-->
+
+    <!--There are many predefined colrs for text and background which are-->
+    <!--muted,primary,success,info,warining,danger,secondary,white,dark,body,light-->
+<div class="container">
+    <br>
+    <br>
+    <h2>Colors of bootstrap</h2>
+
+
+        <div class="text-muted">Muted text</div>
+        <div class="text-primary">Primary colored text</div>
+        <div class="text-success">success text</div>
+        <div class="text-danger">Danger text</div>
+        <div class="text-info">Info text</div>
+        <div class="text-secondary">Secondary text</div>
+        <div class="text-white bg-primary">White text</div>
+        <div class="text-body">Body text(default)</div>
+        <div class="text-dark">Dark text</div>
+        <div class="text-light bg-dark">Light text</div>
+
+
+</div>
+
+<div class="container">
+
+    <br>
+    <br>
+    <h2>Backgrounds</h2>
+    <div class="bg-danger text-white">Background-danger</div>
+    <div class="text-white bg-primary">primary-background</div>
+    <div class="text-white bg-dark">Dark backgroud</div>
+    <div class="text-dark bg-light">Light backgroud</div>
+    <div class="text-white bg-success">success background</div>
+    <div class="text-white bg-info">Info background</div>
+    <div class="text-white bg-secondary">scondary color background</div>
+    <div class="text-white bg-warning">warining background</div>
+
+
+</div>
+
+<br>
+<br>
+<div class="container">
+
+    <!--Bootstrap tables-->
+
+    <!--Normal Table-->
+    <h2>Tables</h2>
+    <div class="container">
+        <table class="table">
+            <thead>
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+              </tr>
+              <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+              </tr>
+              <tr>
+                <td>July</td>
+                <td>Dooley</td>
+                <td>july@example.com</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
+    <br>
+    <br>
+    <h2>striped table</h2>
+    <div class="container">
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+              </tr>
+              <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <br>
+          <!--Table hover effect-->
+          <h2>Table Hover effects</h2>
+    <div class="container">
+        <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+              </tr>
+              <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+              </tr>
+            </tbody>
+          </table>
+          
+          <!--Dark-table-->
+
+          <h2>Dark Table</h2>
+          <table class="table table-dark">
+            <thead>
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+              </tr>
+              <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <br>
+
+          <!--striped dark table-->
+
+          <h2>Striped dark table</h2>
+
+          <table class="table table-dark table-striped">
+            <thead>
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+              </tr>
+              <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <br>
+
+          <!--Dark table with hover-->
+
+          <h2>dark table with hover effects</h2>
+          <table class="table table-dark table-hover">
+            <thead>
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+              </tr>
+              <tr>
+                <td>Mary</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <br>
+
+
+          <!--We can get borderless table using table-borderless-->
+
+          <!--Table of diffrent colors-->
+
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Default</td>
+                <td>Defaultson</td>
+                <td>def@somemail.com</td>
+              </tr>      
+              <tr class="table-primary">
+                <td>Primary</td>
+                <td>Joe</td>
+                <td>joe@example.com</td>
+              </tr>
+              <tr class="table-success">
+                <td>Success</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+              </tr>
+              <tr class="table-danger">
+                <td>Danger</td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+              </tr>
+              <tr class="table-info">
+                <td>Info</td>
+                <td>Dooley</td>
+                <td>july@example.com</td>
+              </tr>
+              <tr class="table-warning">
+                <td>Warning</td>
+                <td>Refs</td>
+                <td>bo@example.com</td>
+              </tr>
+              <tr class="table-active">
+                <td>Active</td>
+                <td>Activeson</td>
+                <td>act@example.com</td>
+              </tr>
+              <tr class="table-secondary">
+                <td>Secondary</td>
+                <td>Secondson</td>
+                <td>sec@example.com</td>
+              </tr>
+              <tr class="table-light">
+                <td>Light</td>
+                <td>Angie</td>
+                <td>angie@example.com</td>
+              </tr>
+              <tr class="table-dark">
+                <td>Dark</td>
+                <td>Bo</td>
+                <td>bo@example.com</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!--Images-->
+        <div class="row">
+            
+            <div class="col">
+                <p>Round-corned-image</p>
+                <img src="/web/hmtl/img/bg.png" class="rounded img-fluid" alt="bg"></div>
+            <br>
+            <br>
+
+            <div class="col">
+                <p>Circular image</p>
+                <img src="/web/hmtl/img/bg.png" alt="bg" class="rounded-circle img-fluid"></div>
+        </div>
+
+        <div class="col">
+            <p>Thumbnail</p>
+            <img src="/web/hmtl/img/bg.png" alt="background" class="img-thumbnail img-fluid d-block mx-auto">
+        </div>
+        <!--To align a image to center we should use d-block(display block) mx-auto(margin-auto) -->
+
+
+        <!--Jumbtron is a padded box to have a special attraction to it-->
+        <div class="mt-5 p-5 bg-primary text-white rounded">
+            <h2>Example of jumbtron</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt aliquam quae 
+                nostrum dolorum necessitatibus consequuntur atque eaque possimus quaerat sapiente 
+                ea, debitis, tenetur magnam soluta.</p>
+        </div>
+        <br>
+        <br>
+        <div class="container">
+            <h3>Alert box</h3>
+            <div class="alert alert-success">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quidem quam facilis possimus illo corporis eius cumque! Illum aspernatur distinctio tenetur quos accusamus.
+            </div>
+            <h3>alert box with links</h3>
+            <div class="alert alert-danger">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, velit sunt? Enim architecto sapiente minus? Est culpa amet animi? Quas fugiat nihil nobis? <a href="#" class="alert-link">Click here</a>
+            </div>
+            <div class="alert alert-dark alert-dismissible">
+              <h4>alert-box with closing button</h4>
+              <button class="btn-close" type="button" data-bs-dismiss="alert"></button>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta doloribus temporibus laborum perspiciatis quae natus mollitia cumque illum quos libero voluptas fuga labore, amet nemo?
+          </div>
+        </div>
+        <div class="alert alert-danger alert-dismissible show fade">
+            <h4>alert-box with closing animation effects</h4>
+            <button class="btn-close" type="button" data-bs-dismiss="alert"></button>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam amet, praesentium quasi quia perspiciatis! Ratione possimus nobis numquam nesciunt tenetur nam, quae non qui.
+        </div>
+
+        <!--Buttons-->
+        <h3>Buttons with diffrent colors</h3>
+        <div class="btn btn-primary">Primary</div>
+        <div class="btn btn-secondary">Secondary</div>
+        <div class="btn btn-success">Success</div>
+        <div class="btn btn-warning">Warning</div>
+        <div class="btn btn-danger">Danger</div>
+        <div class="btn btn-dark">Dark</div>
+        <div class="btn btn-light">Light</div>
+        <br>
+        <br>
+
+        <!--Buttons with outline and good hover-->
+        <h2>Button with outline</h2>
+        <div class="btn btn-outline-primary">Primary</div>
+        <div class="btn btn-outline-secondary">Secondary</div>
+        <div class="btn btn-outline-success">Success</div>
+        <div class="btn btn-outline-warning">Warning</div>
+        <div class="btn btn-outline-danger">Danger</div>
+        <div class="btn btn-outline-dark">Dark</div>
+        <div class="btn btn-outline-light">Light</div>
+        <br><br>
+
+        <!--Button sizes-->
+        <h5>There are 3 sizes of buttons</h5>
+        <button class="btn btn-primary btn-lg">
+          Large
+        </button>
+        <div class="btn btn-primary btn-sm">
+          Small
+        </div>
+        <div class="btn btn-primary">
+          Default
+        </div>
+        <br>
+        <br>
+        <!--Block level button-->
+        <!--To do so first we should set display to grid using d-grid-->
+        <!--and then set it to btn-block-->
+        <div class="d-grid">
+          <div class="btn btn-primary btn-block">
+            Button-block
+          </div>
+        </div>
+        <br>
+        <br>
+        <!--Active and Disabled buttons-->
+        <h3>Active and disabled buttons</h3>
+        <br>
+        <button class="btn btn-outline-info active">
+          Active button
+        </button>
+        <button class="btn btn-info disabled">
+          disabled button
+        </button>
+        <br>
+        <br>
+        <!--Spinner Buttons-->
+        <div class="btn btn-primary">
+          <span class="spinner-border spinner-border-sm"></span> Loading..
+        </div>
+        <div class="btn btn-primary">
+          <span class="spinner-grow spinner-grow-sm"></span> Loading
+        </div>
+        <br>
+        <br>
+        
+        <!--Button Groups-->
+        <div class="btn-group">
+          <button class="btn btn-primary">Apple</button>
+          <button class="btn btn-primary">Pineapple</button>
+          <button class="btn btn-primary">Orange</button>
+        </div>
+        <!--We can also use large group and small gropus-->
+        <br>
+        <br>
+          <div class="btn-group btn-group-lg">
+          <button class="btn btn-primary">Apple</button>
+          <button class="btn btn-primary">Pineapple</button>
+          <button class="btn btn-primary">Orange</button>
+        </div>
+        <br>
+        <!--We can also use vertical button group-->
+        <div class="btn-group-vertical">
+          <button class="btn btn-primary">Apple</button>
+          <button class="btn btn-primary">Pineapple</button>
+          <button class="btn btn-primary">Orange</button>
+        </div>
+
+        <!--Drop downs-->
+        <br>
+        <h2>Dropdown</h2>
+
+        <div class="btn-group">
+
+          <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            My Fav Pokemon
+          </button>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Dark rai</a>
+            <a href="#" class="dropdown-item">Bisharp</a>
+            <a href="#" class="dropdown-item">Latios</a>
+            <a href="#" class="dropdown-item">Pikachu</a>
+          </div>
+          </div>
+          <br>
+          
+          <!--Badges-->
+          <h2>Badges</h2>
+          <h4>A new offer <span class="badge bg-danger">New</span></h4>
+
+          <!--We can make badges round using round-pill-->
+          <br>
+          <h3>Rounded badges</h3>
+          <h4>
+            Rounded badges <span class="rounded-pill badge bg-success">
+              Rounded
+            </span>
+          </h4>
+          <br>
+          <h3>Badge inside a button</h3>
+          <button class="btn btn-primary">
+            option <span class="badge bg-danger">1</span>
+          </button>
+          <button class="btn btn-primary">
+            option <span class="badge bg-danger">2</span>
+          </button>
+          <br>
+          <!--Peogress bar-->
+          <h2>Progress bar</h2>
+
+          <div class="container">
+            <br>
+              <div class="progress">
+              <div class="progress-bar" style="width:70%">70%</div>
+            </div>
+            <!--colored progress bar-->
+            <br>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width:50%">
+                50%
+              </div>
+            </div>
+            <br>
+            <!--Striped Progress bars-->
+            <h3>Striped progress bar</h3>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped" style="width:90%">
+                90%
+              </div>
+            </div>
+            <br>
+
+            <!--Animated of progress bars-->
+            <h3>Animated Progress bar</h3>
+            <div class="progress">
+              <div class="progress-bar progress-bar-animated progress-bar-striped" style="width:30%">
+                30%
+              </div>
+            </div>
+            <br>
+
+
+          </div>
+
+          <br>
+          <br>
+          <!--multiple progress bar-->
+          <h3>Multi-color progress colors</h3>
+          <br>
+          <div class="progress">
+            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:40%">
+              Free Space
+            </div>
+            <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:30%">
+              Warning
+            </div>
+            <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width:20%">
+              Danger
+            </div>
+          </div>
+          <br>
+          <br>
+
+          <!--Spinners-->
+          <h2>Spinners</h2>
+          <!-- to get a spinners we can use a class named spinner-border -->
+          <div class="spinner-border"></div>
+          <br>
+          <h2>Colored-spinners</h2>
+          <div class="spinner-border text-primary"></div>
+          <div class="spinner-border text-danger"></div>
+          <div class="spinner-border text-success"></div>
+          <div class="spinner-border text-dark"></div>
+          <div class="spinner-border text-secondary"></div>
+          <br>
+
+          <!--Growing spinners-->
+          <h2>Growing Spinners</h2>
+          <!--We can use spinner-grow to achieve it-->
+          <div class="spinner-grow"></div>
+          <br>
+          <h2>colred growing spinners</h2>
+          <div class="spinner-grow text-primary"></div>
+          <div class="spinner-grow text-secondary"></div>
+          <div class="spinner-grow text-danger"></div>
+          <div class="spinner-grow text-success"></div>
+          <div class="spinner-grow text-warning"></div>
+          <div class="spinner-grow text-info"></div>
+          <div class="spinner-grow text-dark"></div>
+          <br>
+          <h2>small sizes of spinners and growers</h2>
+          <!-- small sizes of spinners and growings -->
+          <div class="spinner-border spinner-border-sm"></div>
+          <div class="spinner-grow spinner-grow-sm"></div>
+          <br><br>
+
+          <!-- Pagination -->
+          <h2>Pagination</h2>
+          <br>
+          <!-- we should use a umordered list for it -->
+          <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+              <a href="#" class="page-link">Previous</a>
+            </li>
+            <li class="page-item  active">
+              <a href="#" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+              <a href="#" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+              <a href="#" class="page-link">3</a>
+            </li>
+            <li class="page-item">
+              <a href="#" class="page-link">Next</a>
+            </li>
+          </ul>
+          <br>
+          </div>
+          <br>
+          <!-- we can adjust size of pagination using lg(large) and small(sm) -->
+          <!-- we can use justify-content-center to align it to center -->
+          
+          <!-- Breadcrumbs -->
+          <h2>Breadcrumbs</h2>
+          <div class="blockquote-footer mt-1">
+            breadcrumb is the current page's location within a navigational hierarchy
+          </div>
+          <h5>path of present file</h5>
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">vscode</a></li>
+            <li class="breadcrumb-item"><a href="#">web</a></li>
+            <li class="breadcrumb-item"><a href="#">bootstrap</a></li>
+            <li class="breadcrumb-item"><a href="#">w3schools</a></li>
+            <li class="breadcrumb-item active">bootstrap practice file</li>
+          </ul>
+          <br>
+          <!-- Basic List Group -->
+          <h2>List group</h2>
+          <ul class="list-group">
+            <div class="list-group-item">First item</div>
+            <div class="list-group-item">Second item</div>
+            <div class="list-group-item">Third item</div>
+          </ul>
+          <br>
+          <h2>Active state and disabled state</h2>
+          <h6>we can use .active class to highlight an item and .disabled can be used to disable items</h6>
+          <div class="list-group">
+            <div class="list-group-item active">Item 1</div>
+            <div class="list-group-item disabled">Item 2</div>
+            <div class="list-group-item">Item 3</div>
+          </div>
+          <br>
+          <h2>List group with Linked items</h2>
+          <h6>we can use .list-group-item-action inside a tag</h6>
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active">First item</a>
+            <a href="#" class="list-group-item list-group-item-action">Second item</a>
+            <a href="#" class="list-group-item list-group-item-action">Third item</a>
+          </div>
+          <br>
+          <h5>we can use .list-group-flush to remove borders</h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">First item</li>
+            <li class="list-group-item">Second item</li>
+            <li class="list-group-item">Third item</li>
+          </ul>
+          <br>
+          <h2>Numbered list</h2>
+          <div class="container mt-3">
+            <ol class="list-group list-group-numbered">
+              <li class="list-group-item">First item</li>
+              <li class="list-group-item">Second item</li>
+              <li class="list-group-item">Third item</li>
+            </ol>
+            <br>
+
+            <h2>Horizontal list groups</h2>
+            <ul class="list-group list-group-horizontal">
+              <li class="list-group-item">First item</li>
+              <li class="list-group-item">Second item</li>
+              <li class="list-group-item">Third item</li>
+              <li class="list-group-item">Fourth item</li>
+            </ul>
+
+            <br>
+            <h2>colored-list-group</h2>
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-success">Success</li>
+              <li class="list-group-item list-group-item-primary">Primary</li>
+              <li class="list-group-item list-group-item-danger">Danger</li>
+              <li class="list-group-item list-group-item-warning">warning</li>
+              <li class="list-group-item list-group-item-secondary">Secondary</li>
+              <li class="list-group-item list-group-item-info">info</li>
+              <li class="list-group-item list-group-item-dark">dark</li>
+            </ul>
+            <br>
+            <br>
+
+            <!-- Cards -->
+
+            <h4>Normal card</h4>
+
+            <div class="card">
+
+              <div class="card-header">Header</div>
+              <div class="card-body">card body</div>
+              <div class="card-footer">Footer</div>
+
+            </div>
+            <br>
+
+            <h3>Color cards</h3>
+            <div class="card bg-primary mt-2">
+              <div class="card-body">Primary card</div>
+            </div>
+
+            <div class="card bg-danger mt-2">
+              <div class="card-body">danger card</div>
+            </div>
+
+            <div class="card bg-success mt-2">
+              <div class="card-body">success card</div>
+            </div>
+
+            <div class="card bg-info mt-2">
+              <div class="card-body">info card</div>
+            </div>
+
+            <div class="card bg-dark mt-2">
+              <div class="card-body text-white">dark card</div>
+            </div>
+
+            <div class="card bg-secondary mt-2">
+              <div class="card-body">secondary card</div>
+            </div>
+
+
+
+          </div>
+          <br>
+
+          <h3>Card titles and links</h3>
+          <div class="card mt-2">
+            <div class="card-header">
+              <h4 class="card-title">Title</h4>
+            </div>
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel in laboriosam voluptatibus?
+            </div>
+            <div class="card-footer">
+              <a href="#" class="card-link">link</a>
+            </div>
+          </div>
+
+          <h2>Card Images</h2>
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <img src="/web/hmtl/img/bg.png" class="card-img-top">
+                <div class="card-body">
+                  <h2 class="card-title">Top-image</h2>
+                  <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eligendi officia beatae labore natus iusto tenetur autem illo? Numquam voluptate totam aspernatur!</div>
+                  <a href="#" class="btn btn-primary mt-3">Info about lorem</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="card-title">Bottom-image</h2>
+                  <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eligendi officia beatae labore natus iusto tenetur autem illo? Numquam voluptate totam aspernatur!</div>
+                  <a href="#" class="btn btn-primary mt-3">Info about lorem</a>
+                  </div>
+                  <img src="/web/hmtl/img/bg.png" class="card-img-bottom mt-2">
+              </div>
+            </div>
+
+            <h2>Card Image Overlays</h2>
+   
+            </div>
+          </div>
+          <div class="card p-5 d-block m-auto" style="width:300px;height:300px;">
+            <img src="/web/hmtl/img/favicon.png" class="card-img-top">
+            <div class="card-img-overlay">
+              <h3 class="card-title">Writerspot</h3>
+              <div class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quo.</div>
+            </div>
+          </div>
+          <br>
+          <!--Dropdowns-->
+          <br>
+          <div class="container">
+            <h2>Dropdown</h2>
+            <!--Dropdown can be done by having a button and followed by a ul of dropdown-menu and other items of the dropdown as links-->
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-danger dropdown-toggle d-block m-auto" data-bs-toggle="dropdown">Dropdown</button>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">link 1</li>
+              <li class="dropdown-item">link 2</li>
+              <li class="dropdown-item">link 3</li>
+            </ul>
+          </div>
+          <br>
+          <div class="container">
+            <h2>Disabled and active dropdown links</h2>
+            <div class="dropdown">
+              <button class="btn btn-primary dropdown-toggle d-block m-auto" data-bs-toggle="dropdown">active/disabled</button>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item">Normal</li>
+                <li class="dropdown-item active">Active</li>
+                <li class="dropdown-item disabled">Disabled</li>
+              </ul>
+            </div>
+          </div>
+          <br>
+   <div class="container">
+
+          <!--Dropdown positions-->
+
+          <h2>Dropdown position</h2>
+          <h6>We can set dropdown to side-ways using this</h6>
+        <div class="row">
+            <div class="col">
+              <div class="dropdown dropend">
+                <button class="btn btn-primary dropdown-toggle d-block m-auto" data-bs-toggle="dropdown">Dropend</button>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-item">Link 1</li>
+                  <li class="dropdown-item">Link 2</li>
+                  <li class="dropdown-item">Link 3</li>
+                </ul>
+              </div>
+            </div>
+          <div class="col">
+            <div class="dropdown dropstart">
+              <button class="btn btn-primary dropdown-toggle d-block m-auto " data-bs-toggle="dropdown">dropstart</button>
+              <ul class="dropdown-menu">
+                <li class="dropdown-item">Link 1</li>
+                <li class="dropdown-item">Link 2</li>
+                <li class="dropdown-item">Link 3</li>
+              </ul>
+            </div>
+          </div>
+       </div>
+       <br>
+       <!--Dropup-->
+       <h2>Dropup</h2>
+       <div class="dropup">
+        <button class="btn btn-primary dropdown-toggle d-block m-auto" data-bs-toggle="dropdown">Dropup</button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">Link 1</li>
+          <li class="dropdown-item">Link 2</li>
+          <li class="dropdown-item">Link 3</li>
+        </ul>
+       </div>
+
+        <!--Dropdown header-->
+       <h2>Dropdown-header</h2>
+       <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle d-block m-auto" data-bs-toggle="dropdown">Textbooks</button>
+        <div class="dropdown-menu">
+          <h5 class="dropdown-header">Physics</h5>
+          <div class="dropdown-item">Physics-I</div>
+          <div class="dropdown-item">Physics-II</div>
+          <h5 class="dropdown-header">Chemistry</h5>
+          <div class="dropdown-item">Chemistry-I</div>
+          <div class="dropdown-item">Chemistry-II</div>
+        </div>
+       </div>
+
+       <!-- Collapsable text -->
+
+       <h2>Basic Collapse</h2>
+       <button class="btn btn-outline-primary "data-bs-toggle="collapse" data-bs-target="#lorem">Lorem-text</button>
+
+       <div id="lorem" class="collapse mt-1">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur reprehenderit sapiente itaque provident doloribus praesentium repudiandae aliquam quae, modi expedita molestiae, porro mollitia!
+       </div>
+       <br>
+
+
+       <h5>we can make item showed in default using show class</h5>
+       <br>
+       <!-- Accordion -->
+       <h2>Accordion</h2>
+       
+       <div id="accordion">
+
+        <div class="card">
+          <div class="card-header">
+            <a href="#one" class="btn" data-bs-toggle="collapse">
+              First text
+            </a>
+          </div>
+          <div class="collapse show" id="one" data-bs-target="#accordion">
+            <div class="card-body">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, repellendus aliquid non quas voluptate consequatur eos voluptatum explicabo, voluptatibus eaque aspernatur rem dolor?
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <a href="#two" class="btn" data-bs-toggle="collapse">
+              Second text
+            </a>
+          </div>
+          <div class="collapse" id="two" data-bs-target="#accordion">
+            <div class="card-body">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, repellendus aliquid non quas voluptate consequatur eos voluptatum explicabo, voluptatibus eaque aspernatur rem dolor?
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <a href="#three" class="btn" data-bs-toggle="collapse">
+              Third text
+            </a>
+          </div>
+          <div class="collapse" id="three" data-bs-target="#accordion">
+            <div class="card-body">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, repellendus aliquid non quas voluptate consequatur eos voluptatum explicabo, voluptatibus eaque aspernatur rem dolor?
+            </div>
+          </div>
+        </div>
+
+       </div>
+
+    <br>
+
+    <!-- Navigation bars -->
+
+    <h2>Navigation bar</h2>
+    <br>
+
+    <ul class="nav bg-dark justify-content-start">
+      <li class="nav-item"><a href="#" class="nav-link">Link 1</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+     </ul>
+
+   <br>
+   <h2>Veritcal nav</h2>
+   <ul class="nav justify-content-start flex-column">
+    <li class="nav-item"><a href="#" class="nav-link">Link 1</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+   </ul>
+   <br>
+
+   <!-- Tabs -->
+   <h2>Tabs</h2>
+   <div class="nav nav-tabs">
+    <div class="nav-item"><a href="#" class="nav-link active">Link 1</a></div>
+    <div class="nav-item"><a href="#" class="nav-link">Link 2</a></div>
+    <div class="nav-item"><a href="#" class="nav-link">Link 3</a></div>
+   </div>
+   <br>
+   <!-- justified tabs will equally spread your tabs -->
+   <h2>Justified tabs</h2>
+   <div class="nav nav-justified nav-tabs">
+    <div class="nav-item"><a href="#" class="nav-link active">Link 1</a></div>
+    <div class="nav-item"><a href="#" class="nav-link">Link 2</a></div>
+    <div class="nav-item"><a href="#" class="nav-link">Link 3</a></div>
+   </div>
+   <br>
+
+   <!-- pills and pills with dropdown -->
+   <br>
+   <h2>pills</h2>
+   <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+  </ul>
+
+   
+   <br>
+
+   <h2>pills with dropdown</h2>
+   <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">First</a>
+    </li>
+    <li class="nav-item dropdown">
+
+      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Dropdown</a>
+      <ul class="dropdown-menu">
+        <li ><a href="#" class="dropdown-item">Link1</a></li>
+        <li ><a href="#" class="dropdown-item">Link2</a></li>
+        <li ><a href="#" class="dropdown-item">Link3</a></li>
+      </ul>
+      
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Last</a>
+    </li>
+  </ul>
+  <br>
+  <!-- Toggalble / Dynamic Tabs -->
+  <h2>Toggalble / Dynamic Tabs</h2>
+  <br>
+  <ul class="nav nav-tabs" role="tablist">
+    <li  class="nav-item"><a href="#first" data-bs-toggle="tab" class="nav-link active">First</a></li>
+    <li  class="nav-item"><a href="#second" data-bs-toggle="tab" class="nav-link">Second</a></li>
+    <li  class="nav-item"><a href="#third" data-bs-toggle="tab" class="nav-link">Third</a></li>
+  </ul>
+  <div class="tab-content">
+    <div id="first" class="container tab-pane active">
+      <br>
+      <h4>Home</h4>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci itaque exercitationem, et rem assumenda illum molestiae quis ipsa inventore? Nam voluptatem fuga facilis aliquam temporibus delectus quas cum est ullam.</p>
+    </div>
+    <div id="second" class="container tab-pane fade">
+      <br>
+      <h4>Second</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque rerum perspiciatis animi ab ipsum quam ipsam at quo voluptate, voluptatibus natus dignissimos quas blanditiis, dolor tempora asperiores nobis soluta repudiandae.</p>
+    </div>
+    <div class="container tab-pane fade" id="third">
+      <br>
+      <h4>Third</h4>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem animi iusto consequatur? Earum, eaque quasi laborum officia veritatis quia sint qui assumenda. Alias, reprehenderit. Mollitia sunt culpa quis possimus non?</p>
+    </div>
+    <br>
+  </div>
+  <!-- Toggable pills -->
+  <h2>Toggable pills</h2>
+  <br>
+  <ul class="nav nav-pills" role="tablist">
+    <li class="nav-item">
+      <a data-bs-toggle="tab" href="#home" class="nav-link active">Home</a>
+    </li>
+    <li class="nav-item">
+      <a data-bs-toggle="tab" href="#home1" class="nav-link">First</a>
+    </li>
+    <li class="nav-item">
+      <a data-bs-toggle="tab" href="#home2" class="nav-link">Second</a>
+    </li>
+  </ul>
+  <div class="tab-content">
+    <div class="container tab-pane active" id="home">
+      <br>
+      <h4>Home</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eligendi voluptates tenetur iure, ut voluptas atque quo, maxime nihil tempora quaerat! Itaque quia eius blanditiis debitis exercitationem perferendis velit ad.</p>
+    </div>
+    <div class="container tab-pane fade" id="home1">
+      <br>
+        <h4>First</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, natus quam culpa veniam doloribus itaque quod rerum, saepe alias molestias, nisi ut. Veritatis, illo quidem. Quaerat culpa asperiores aspernatur vel.</p>
+    </div>
+    <div class="container fade tab-pane" id="home2">
+      <br>
+        <h4>Second</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis molestias perferendis reprehenderit, harum recusandae dolorum nobis iusto? Ducimus esse sunt rem voluptatum nostrum accusantium illum facere, earum, rerum quo eum.</p>
+    </div>
+  </div>
+  <br>
+
+  <!-- Navigation bars -->
+  <h2>Navigation bars</h2>
+  <br>
+  <div class="navbar navbar-expand-sm bg-dark">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">Active</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Link 1</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Link 2</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Link 3</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <br>
+  <!-- Navigation-brand/logo -->
+  <h3>Navigation-brand/logo</h3>
+  <div class="navbar navbar-expand-sm bg-dark">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand">
+        <span>
+          <img src="/web/hmtl/img/favicon.png" alt="#" width="30px" height="30px">
+        </span>
+        <span>
+          Writerspot
+        </span>
+      </a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Link1</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">link2</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <br>
+  <h2>Navbar toggler</h2>
+  <br>
+  <div class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <div class="navbar-brand">
+        Yash
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsiveNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse"id=collapsiveNavbar>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link">First link</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Second link</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Third link</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <br>
+  <br>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <div class="container-fluid">
+
+          <div class="navbar-brand">
+            <span><img src="/web/hmtl/writerspot/img/favicon.png" alt="Writerspoot logo" width="30px" height="30px"></span>
+            <span>Writerspot</span>
+          </div>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsive-NavBar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="collapsive-NavBar">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Link</a></li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Profile</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#" class="dropdown-item">Achievments</a></li>
+                      <li><a href="#" class="dropdown-item">History</a></li>
+                      <li><a href="#" class="dropdown-item">Friends</a></li>
+                      <li><a href="#" class="dropdown-item">Logout</a></li>
+
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+      </nav>
+    <br>
+  
+    <!-- Fixed nav bars -->
+    <h2>Fixed nav bars</h2>
+    <br>
+    <h6>Fixed top</h6>
+    <div class="overflow">
+      <body>
+        <div class="navbar navbar-expand-sm bg-dark navbar-dark p-3">
+          <div class="navbar-brand">Yash</div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarfixedtop">
+            <div class="navbar-toggler-icon"></div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarfixedtop">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="#" class="nav-link">Link1</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Link2</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Link3</a></li>
+            </ul>
+          </div>
+        </div>
+        <a href="fixed-top.html" target="_blank">Visit here</a> for real demo <br>
+        using fixed-top we can set it to top <br>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, quibusdam eveniet ipsum dicta repellat, sed eius facere veritatis libero doloribus sequi, ducimus deleniti provident obcaecati officia. Molestiae aliquam laborum iusto. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima rem dolorem culpa quo veritatis quidem dolores, temporibus veniam ipsum quaerat hic repellendus et placeat deleniti reiciendis nesciunt illum impedit ut!
+        <br><br><br>
+            </div>
+      </body>
+    <br>
+    <h6>fixed bottom</h6>
+    <body>
+      <div class="overflow">
+        <div class="navbar navbar-expand-sm bg-dark navbar-dark p-3"><!--We must use fixed-bottom here-->
+          <div class="navbar-brand">Yash</div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarfixedbottom">
+            <div class="navbar-toggler-icon"></div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarfixedbottom">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="#" class="nav-link">Link1</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Link2</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Link3</a></li>
+            </ul>
+          </div>
+        </div>
+        <a href="fixed-bottom.html" target="_blank">Visit here</a> for real demo <br>
+        using fixed-bottom we can set it to bottom <br>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, quibusdam eveniet ipsum dicta repellat, sed eius facere veritatis libero doloribus sequi, ducimus deleniti provident obcaecati officia. Molestiae aliquam laborum iusto. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima rem dolorem culpa quo veritatis quidem dolores, temporibus veniam ipsum quaerat hic repellendus et placeat deleniti reiciendis nesciunt illum impedit ut!
+        <br><br><br>
+        </div>
+    </body>
+    </div>
+<div class="container">
+    <br>
+    <h6>sticky top</h6>
+    <div class="overflow">
+      <body>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, ut eos modi eligendi nisi perspiciatis nobis incidunt ducimus unde delectus assumenda ratione reiciendis est voluptates, doloribus perferendis, maxime facilis recusandae.</p>
+        <div class="navbar navbar-expand-sm bg-dark navbar-dark p-3 sticky-top"><!--We must use sticky-top here-->
+          <div class="navbar-brand">Yash</div>p
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarstickytop">
+            <div class="navbar-toggler-icon"></div>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarstickytop">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="#" class="nav-link">Link1</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Link2</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Link3</a></li>
+            </ul>
+          </div>
+        </div>
+        <a href="sticky-top.html" target="_blank">Visit here</a> for real demo <br>
+        using sticky-top we can set it to stick at top when it reached there<br>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, quibusdam eveniet ipsum dicta repellat, sed eius facere veritatis libero doloribus sequi, ducimus deleniti provident obcaecati officia. Molestiae aliquam laborum iusto. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima rem dolorem culpa quo veritatis quidem dolores, temporibus veniam ipsum quaerat hic repellendus et placeat deleniti reiciendis nesciunt illum impedit ut!
+        <br><br><br>
+            </div>
+      </body>
+    <br>
+    <!-- Navbar with Forms and Buttons -->
+
+    <h2>Navbar with Forms and Buttons</h2>
+    <br>
+    <div class="navbar navbar-expand-md bg-dark navbar-dark">
+
+      <div class="container-fluid">
+        <div class="navbar-brand">Example</div>
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#form">
+        <div class="navbar-toggler-icon"></div>
+      </button>
+
+      <div class="collapse navbar-collapse" id="form">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#" class="nav-link">Link 1</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+        </ul>
+        <form class="d-flex">
+          <input type="text" class="form-control me-2" placeholder="Search">
+          <button class="btn btn-primary">
+            Search
+          </button> 
+
+        </form>
+      </div>
+
+    </div>
+    </div>
+
+    <!-- Bootstrap carousel -->
+    <br>
+    <br>
+    <h2>Bootstrap carousel</h2>
+
+    <!-- Carousel -->
+    <div id="target" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Caurousel-indicators/dots -->
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#target" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#target" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#target" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#target" data-bs-slide-to="3"></button>
+      </div>
+
+      <!-- Slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/one.jpeg" alt="one" class="d-block" style="width:100%;height: 400px;">
+
+        </div>
+        <div class="carousel-item">
+          <img src="img/two.jpeg" alt="two" class="d-block"  style="width:100%;height: 400px;">
+        </div>
+        <div class="carousel-item">
+          <img src="img/three.jpeg" alt="three" class="d-block" style="width:100%;height: 400px;">
+        </div>
+        <div class="carousel-item">
+          <img src="img/four.jpeg" alt="Four" class="d-block" style="width:100%;height: 400px;">
+        </div>
+      </div>
+
+      <!--Left and Right controls-->
+      <button class="carousel-control-prev" type="button" data-bs-target="#target" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#target" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+    </div>
+    <br>
+    <br>
+    <h2>Bootstrap carousel with captions</h2>
+
+    <div class="carousel slide" id="target1" data-bs-ride="carousel">
+
+      <!--Carousel indicators-->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#target1" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#target1" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#target1" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#target1" data-bs-slide-to="3"></button>
+      </div>
+
+      <!--Carousel Images-->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="img/one.jpeg" alt="one" style="width:100%" height="400px">
+        <div class="carousel-caption">
+          <h4>First one</h4>
+          <p>This is first slide</p>
+        </div>
+
+        </div>
+
+      <div class="carousel-item">
+          <img src="img/two.jpeg" alt="two" style="width:100%" height="400px">
+          <div class="carousel-caption">
+            <h4>second one</h4>
+            <p>This is second slide</p>
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/three.jpeg" alt="three image" style="width:100%" height="400px">
+          <div class="carousel-caption">
+            <h4>Third one</h4>
+            <p>This is Third slide</p>
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/four.jpeg" alt="four" style="width:100%" height="400px">
+          <div class="carousel-caption">
+            <h4>Fourth one</h4>
+            <p>This is Fourth slide</p>
+          </div>
+          
+        </div>
+   
+
+    <!-- Carousel-icons -->
+
+    <div class="carousel-control-prev" type="button" data-bs-target="#target1" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </div>
+    <div class="carousel-control-next" type="button" data-bs-target="#target1" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </div>
+
+  </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <!-- Modals -->
+  <h2>Modal Example </h2>
+  <br>
+  <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#Modal">
+    Click here to open Modal
+  </button>
+
+  <div class="modal fade" id="Modal">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+
+        <!-- Modal heading -->
+        <div class="modal-header">
+          <h2 class="modal-title">
+            Modal title
+          </h2>
+          <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatem inventore natus assumenda officia neque ducimus expedita provident? Perferendis sit sequi necessitatibus harum quaerat molestiae numquam delectus minus dignissimos nihil?
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <!-- centerd-modal -->
+  <button class="btn btn-primary" data-bs-target="#modal1" data-bs-toggle="modal">
+    Click here to open centered modal
+  </button>
+  <div class="modal fade" id="modal1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title">Lorem</h2>
+          <div class="btn-close" type="button" data-bs-dismiss="modal"></div>
+        </div>
+
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, eius? Asperiores necessitatibus natus explicabo libero eveniet tempora, minus fugit praesentium quod quibusdam dolor alias amet repudiandae quos tempore non corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vitae delectus soluta eaque, reiciendis beatae voluptatibus. Itaque iusto voluptas libero commodi fugiat sed consequatur praesentium accusantium. Consectetur itaque quod provident.
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <h2>Scrolling modal</h2>
+ 
+
+  <!--Modal with scroll bar-->
+ <div class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">
+   Click here to open scrollable
+ </div>
+
+ <div class="modal fade" id="modal2">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+
+            <div class="modal-header">
+              <h2 class="modal-title">Scrollable</h2>
+              <div class="btn-close" type="button" data-bs-dismiss="modal"></div>
+            </div>
+
+            <div class="modal-body">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti dignissimos adipisci assumenda itaque nemo molestiae non possimus eaque amet cum enim, maiores quae optio ab consequuntur perspiciatis voluptatem, aperiam aliquam?
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus placeat sequi inventore quos. Voluptatum, temporibus assumenda ipsam accusamus voluptas veritatis natus eius quos, officiis distinctio voluptatibus pariatur rerum numquam soluta. <br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore iure in dolore dicta voluptas nemo doloremque minima et aut ea molestias, porro soluta. Aut rem esse dolorum mollitia, dolores vero. <br>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita accusantium molestiae officia minima, vero delectus nulla eaque saepe quo nobis voluptate debitis veritatis repellat vel nihil id a incidunt laudantium! <br>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur repudiandae unde, voluptas aliquam nam, fugiat asperiores id incidunt, voluptate esse magni at labore accusamus doloremque? Non amet voluptatibus sunt facere. <br>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, eaque totam, voluptatibus nobis delectus hic, quibusdam dolorem soluta fugit natus reprehenderit nihil quia. Ducimus placeat hic recusandae odit nisi doloremque? <br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium vero quia veritatis incidunt atque? Aliquam, id est. Adipisci vero iste aperiam voluptatem odit perspiciatis aspernatur enim! Voluptate ea odit amet. <br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum modi eligendi quibusdam dolores enim laborum maxime aspernatur possimus, distinctio tenetur inventore, placeat culpa. Quia debitis et eos? Provident, deserunt unde! <br>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit totam magnam, harum laudantium mollitia laboriosam esse earum rem commodi officiis natus consequatur repellendus consequuntur aliquid neque doloribus. Ab, accusantium quisquam? <br>\
+            </div>
+
+            <div class="modal-footer">
+              <div class="btn btn-danger" data-bs-dismiss="modal">Close</div>
+            </div>
+
+          </div>
+        </div>
+ </div>
+<br>
+<br>
+
+<!-- Bootstrap tooltip -->
+
+<h2>Tooltips</h2>
+<p>The Tooltip component is small pop-up box that appears when the user moves the mouse pointer over an element</p>
+<br>
+<div class="btn btn-primary" data-bs-toggle="tooltip" title="This is a tooltip" type="button">
+    Hover on me
+</div>
+
+<script>
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+  })
+</script>
+
+  <!-- popover -->
+  <br>
+  <br>
+  <h2>Popovers</h2>
+  <p>The Popover component is similar to tooltips; it is a pop-up box that appears when the user clicks on an element. The difference is that the popover can contain much more content.</p>
+   <br>
+   <h2>Basic popover</h2>
+   <div class="btn btn-primary" data-bs-toggle="popover" type="button"
+   title="popover title"
+   data-bs-content="This is content Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatem natus amet voluptatibus itaque, ipsum nulla expedita tempore saepe? Officiis voluptatibus hic esse a. Necessitatibus porro rem quasi quod quam." >
+    Popover
+   </div>
+
+   <script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+    })
+    </script>
+    <br>
+    <br>
+
+    <h2>Toasts</h2>
+    <p>The toast component is like an alert box that is only shown for a couple of seconds when something happens (i.e. when the user clicks on a button, submits a form, etc.).</p>
+    
+
+
+    <div class="toast show">
+      <div class="toast-header">
+        Toast header
+        <button class="btn-close" type="button" data-bs-dismiss="toast"></button>
+      </div>
+      <div class="toast-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita perferendis consequatur sed, deleniti omnis, impedit numquam libero, suscipit dolore est cupiditate at vero laborum rem! Rerum deserunt quibusdam eveniet consequuntur!
+      </div>
+    </div>
+    <script>
+      document.getElementById("toastbtn").onclick = function() {
+        var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+        var toastList = toastElList.map(function(toastEl) {
+          return new bootstrap.Toast(toastEl)
+        })
+        toastList.forEach(toast => toast.show())
+      }
+      </script>
+      <br>
+      <br>
+
+      <!--Scrollspy-->
+
+      <h2>Scrollspy</h2>
+      <h3>Click here  to view scrollspy</h3>
+      <a href="scrollspy.html" target="_blank">
+        <button class="btn-primary btn">
+          Click here
+        </button>
+        
+      </a>
+
+      <br>
+      <br>
+      <br>
+      <!--Off canvas-->
+      <h2>Offcanvas Sidebar</h2>
+      <br>
+      <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcan">Open offcanvas sidebar</button>
+      <!--Off canvas-->
+      <div class="offcanvas offcanvas-start" id="offcan">
+
+        <div class="offcanvas-header">
+          <h2 class="offcanvas-title">
+            Off canvas
+          </h2>
+          <button class="btn-close" type="button" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, illum. Voluptatum, rerum deserunt necessitatibus amet, recusandae perferendis eveniet accusamus illum voluptatibus quo mollitia! Deleniti quaerat exercitationem expedita recusandae asperiores. Commodi.</p>br
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi at nulla explicabo soluta veritatis ratione dolore laboriosam reiciendis excepturi, consequuntur molestias quod, alias officia nesciunt eius voluptates nobis? Saepe, molestiae!
+        </div>
+
+
+      </div>
+
+      <!-- Borders -->
+      <div class="contx">
+        <h2>Borders of bootstrap</h2>
+        <span class="border"></span>
+        <span class="border border-0"></span>
+        <span class="border border-top-0"></span>
+        <span class="border border-end-0"></span>
+        <span class="border border-bottom-0"></span>
+        <span class="border border-start-0"></span>
+        <br>
+        <span class="border-top"></span>
+        <span class="border-end"></span>
+        <span class="border-bottom"></span>
+        <span class="border-start"></span>
+        <br>
+        <span class="border border-1"></span>
+        <span class="border border-2"></span>
+        <span class="border border-3"></span>
+        <span class="border border-4"></span>
+        <span class="border border-5"></span>
+        <br>
+        <span class="border border-primary"></span>
+        <span class="border border-secondary"></span>
+        <span class="border border-success"></span>
+        <span class="border border-danger"></span>
+        <span class="border border-warning"></span>
+        <span class="border border-info"></span>
+        <span class="border border-light"></span>
+        <span class="border border-dark"></span>
+        <span class="border border-white"></span>
+        <br>
+        <span class="rounded"></span>
+        <span class="rounded-top"></span>
+        <span class="rounded-end"></span>
+        <span class="rounded-bottom"></span>
+        <span class="rounded-start"></span>
+        <span class="rounded-circle"></span>
+        <span class="rounded-pill" style="width:130px"></span>
+        <span class="rounded-0"></span>
+        <span class="rounded-1"></span>
+        <span class="rounded-2"></span>
+        <span class="rounded-3"></span>
+        <br>
+      </div>
+
+      <!-- Float -->
+      <h2>Floatings</h2>
+      <div class="float-start">This is text floted to left</div>
+      <div class="float-end">This is text floated to right</div>
+      <br>
+      <h2>floating for diffrent sizes</h2>
+      <div class="float-sm-end">Float right on small screens or wider</div><br>
+      <div class="float-md-end">Float right on medium screens or wider</div><br>
+      <div class="float-lg-end">Float right on large screens or wider</div><br>
+      <div class="float-xl-end">Float right on extra large screens or wider</div><br>
+      <div class="float-xxl-end">Float right on XXL screens or wider</div><br>
+      <div class="float-none">Float none</div>
+      <br>
+      
+      <!--Center align-->
+      <div class="mx-auto bg-warning" style="width:150px">Centered</div>
+
+      <div class="w-25 bg-warning">Width 25%</div>
+      <div class="w-50 bg-warning">Width 50%</div>
+      <div class="w-75 bg-warning">Width 75%</div>
+      <div class="w-100 bg-warning">Width 100%</div>
+      <div class="w-auto bg-warning">Auto Width</div>
+      <div class="mw-100 bg-warning">Max Width 100%</div>
+
+
+  <!--Container end-->
+</div>
+    </div>
+</div>
+<br>
+<br>
+
+<style>
+  .overflow{
+    height:200px;
+    overflow: scroll;
+    position: relative;
+  }
+  .overflow1{
+    height:400px;
+    overflow: scroll;
+  }
+  .contx span {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+    background-color: #f9f9f9;
+  }
+</style>
+
+  </body>
+</html>

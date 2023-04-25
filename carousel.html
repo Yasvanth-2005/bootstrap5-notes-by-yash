@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Practice of carousel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+
+ <h1>Carousel practice</h1>
+ <br>
+ <!--carousel-->
+
+ <div class="carousel slide" data-bs-ride="carousel" id="target">
+
+  <!--Nav buttons-->
+  <div class="carousel-indicators">
+
+    <button type="button" data-bs-target="#target" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#target" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#target" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#target" data-bs-slide-to="3"></button>
+
+  </div>
+
+  <!-- Inner images -->
+  <div class="carousel-inner">
+    <div class="carousel-item active"><img src="img/one.jpeg" alt="one" height="300px" style="width:100%"></div>
+    <div class="carousel-item"><img src="img/two.jpeg" alt="two" height="300px" style="width:100%"></div>
+    <div class="carousel-item"><img src="img/three.jpeg" alt="three"height="300px" style="width:100%"></div>
+    <div class="carousel-item"><img src="img/four.jpeg" alt="four" height="300px" style="width:100%"></div>
+  </div>
+
+  <!-- prev and next icons -->
+  <div class="carousel-control-prev" data-bs-slide="prev" type="button" data-bs-target="#target">
+    <span class="carousel-control-prev-icon"></span>
+  </div>
+  <div class="carousel-control-next" data-bs-slide="next" type="button" data-bs-target="#target">
+    <span class="carousel-control-next-icon"></span>
+  </div>
+
+ </div>
+    
+
+  </body>
+</html>
